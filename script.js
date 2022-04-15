@@ -392,6 +392,8 @@ function start() {
 	
   // 테스트용
 	
+	/*
+	
     hand.push(new card(new Array("🀌")));
     hand.push(new card(new Array("🀍")));
     hand.push(new card(new Array("🀎")));
@@ -405,12 +407,12 @@ function start() {
     hand.push(new card(new Array("🀞")));
     hand.push(new card(new Array("🀟")));
     hand.push(new card(new Array("🀠")));
-
-	/*
+	*/
+	
   for (i = 0; i < 13; i++)
     hand.push(new card(deck.splice(0, 1)));
 
-	*/
+	
   hand.sort(compare);
   hand.push(new card(deck.splice(0, 1)));
 
